@@ -1,2 +1,21 @@
 # GWUCybersecurityBootcampChallengesAndProjects4
 Advanced Bash: Owning the System
+Greetings, Ralph!
+
+Congratulations on an outstanding Module 6 Challenge! You’ve demonstrated your hacking skills, remotely accessed a victim’s machine, maintained access via a back door and cracked sensitive passwords!
+
+On the same note, you’ve done quite well with shadowing your victim. You’ve executed the commands to create a secret system user with administrative privileges, but no $HOME. You’ve assigned a password, UID, and GID to “sysd”. Unfortunately, you’ve assigned your “sysd” user a false login shell, which would prevent you from completing this Challenge. How did you do it in your Ubuntu VM, and why did you change the shell, Ralph?
+
+Ralph, remember to use “sudo” before every command where you need to escalate privilege. It is best practice and clarity for readers to do this each time, rather than be logged in to a root shell.
+
+Ralph, when you’re transcribing Bash commands, remember that upper and lowercase matter, as well as precise spelling, dashes and spacing. Curly quotes also lead to syntax errors. Don’t let your editor “autocorrect” commands that should be lowercase; there are preferences for this in Google Docs.
+
+Also, Ralph, you’ve done well in writing and testing your configuration update. You’ve added the port directive to the “sshd_config” file.
+
+Finally, Ralph, you’ve done a marvelous job with the fourth step. You’ve logged back in and used the tool to crack the passwords in “/etc/shadow”!
+
+This has been an amazing opportunity for understanding how to establish a foothold and maintain access, Ralph; please keep up the outstanding work and this smooth flow you’ve established!
+
+
+RAE
+Central Grader , Mar 21, 2023 at 6:19pm
